@@ -9,7 +9,15 @@ body {
 }
 
 
+.button {
+  background-color: black;
+  color: white;
+  max-width: 120px;
+  text-align:center;
+  height: 32px;
+  padding-top: 8px;
 
+}
 
 .divider {
   width: 100%;
@@ -64,6 +72,7 @@ h5 {
 }
 a {
   text-decoration: none;
+  color:inherit;
 }
 
 a > span {
@@ -71,7 +80,9 @@ a > span {
   text-align:center;
   margin-left: 30%;
 }
-
+.greyLink {
+  padding-top: 15px;
+}
 .greyLink:hover {
   color: black;
 
@@ -128,6 +139,12 @@ a > span {
   grid-gap: 10%;
 
 }
+
+  .lopsided {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0%;
+    margin-right: 20%;
+  }
 @media only screen and (max-width: 768px) {
   .content-split-grid-70 {
     grid-template-columns: 1fr;
@@ -232,5 +249,10 @@ a > span {
 
 #services-5 {
   background-image: url('../images/services5.jpg');
+
+}
+
+#contact-1 {
+  background-image: url('../images/contact-1.jpg');
 
 }
