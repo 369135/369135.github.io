@@ -16,6 +16,11 @@ body {
   height:20px;
 }
 
+.divider-large {
+  width: 100%;
+  height:60px;
+}
+
 .textContainer {
   margin: 0px 10% 0px 10%;
 }
@@ -110,9 +115,12 @@ a > span {
 
 
 
+
+
+
 .content-split-grid-70 {
   display: grid;
-  height: 70vh;
+
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   margin: 0px 5% 0px 5%;
@@ -120,6 +128,15 @@ a > span {
   grid-gap: 10%;
 
 }
+@media only screen and (max-width: 768px) {
+  .content-split-grid-70 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }}
+
+
+
+
 
 
 
@@ -133,8 +150,9 @@ a > span {
   grid-row-gap: 5vh;
 }
 @media only screen and (max-width: 768px) {
-  .project-menu{
+  .project-menu {
     grid-template-columns: 1fr;
+
   }}
 
 .projectOption {
@@ -182,8 +200,37 @@ a > span {
 
 #philosophy-image-1 {
   background-image: url('../images/philosophy1.jpg');
-  background-position: center;
+
+  margin-top: 20px;
 
 
+}
+.aside-image {
+  min-height: 300px;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#services-1 {
+  background-image: url('../images/services1.jpg');
+
+}
+
+#services-2 {
+  background-image: url('../images/services2.jpg');
+
+}
+#services-3 {
+  background-image: url('../images/services3.jpg');
+
+}
+#services-4 {
+  background-image: url('../images/services4.jpg');
+
+}
+
+#services-5 {
+  background-image: url('../images/services5.jpg');
 
 }
