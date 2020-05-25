@@ -40,6 +40,131 @@ body {
 
 }
 
+.background {
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+#A-1 {
+  background-image: url('../images/projectA/1.jpg');
+
+}
+#A-2 {
+  background-image: url('../images/projectA/2.jpg');
+
+}#A-3 {
+  background-image: url('../images/projectA/3.jpg');
+
+}#A-4 {
+  background-image: url('../images/projectA/4.jpg');
+
+}#A-5 {
+  background-image: url('../images/projectA/5.jpg');
+
+}#A-6 {
+  background-image: url('../images/projectA/6.jpg');
+
+}#A-7 {
+  background-image: url('../images/projectA/7.jpg');
+
+}
+
+#B-1 {
+  background-image: url('../images/projectB/1.jpg');
+
+}
+#B-2 {
+  background-image: url('../images/projectB/2.jpg');
+
+}#B-3 {
+  background-image: url('../images/projectB/3.jpg');
+
+}#B-4 {
+  background-image: url('../images/projectB/4.jpg');
+
+}#B-5 {
+  background-image: url('../images/projectB/5.jpg');
+
+}#B-6 {
+  background-image: url('../images/projectB/6.jpg');
+
+}#B-7 {
+  background-image: url('../images/projectB/7.jpg');
+
+}
+
+
+#C-1 {
+  background-image: url('../images/projectC/1.jpg');
+
+}
+#C-2 {
+  background-image: url('../images/projectC/2.jpg');
+
+}#C-3 {
+  background-image: url('../images/projectC/3.jpg');
+
+}#C-4 {
+  background-image: url('../images/projectC/4.jpg');
+
+}#C-5 {
+  background-image: url('../images/projectC/5.jpg');
+
+}#C-6 {
+  background-image: url('../images/projectC/6.jpg');
+
+}#C-7 {
+  background-image: url('../images/projectC/7.jpg');
+}
+  #D-1 {
+    background-image: url('../images/projectD/1.jpg');
+
+  }
+  #D-2 {
+    background-image: url('../images/projectD/2.jpg');
+
+  }#D-3 {
+    background-image: url('../images/projectD/3.jpg');
+
+  }#D-4 {
+    background-image: url('../images/projectD/4.jpg');
+
+  }#D-5 {
+    background-image: url('../images/projectD/5.jpg');
+
+  }#D-6 {
+    background-image: url('../images/projectD/6.jpg');
+
+  }#D-7 {
+    background-image: url('../images/projectD/7.jpg');
+
+}
+
+#E-1 {
+  background-image: url('../images/projectE/1.jpg');
+
+}
+#E-2 {
+  background-image: url('../images/projectE/2.jpg');
+
+}#E-3 {
+  background-image: url('../images/projectE/3.jpg');
+
+}#E-4 {
+  background-image: url('../images/projectE/4.jpg');
+
+}#E-5 {
+  background-image: url('../images/projectE/5.jpg');
+
+}#E-6 {
+  background-image: url('../images/projectE/6.jpg');
+
+}#E-7 {
+  background-image: url('../images/projectE/7.jpg');
+
+}
+
+
 
 h1, h2, h3, h4, h5, p, ul {
   font-family: 'Open Sans', sans-serif;
@@ -135,7 +260,7 @@ a > span {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   margin: 0px 5% 0px 5%;
-
+width: 90%;
   grid-gap: 10%;
 
 }
@@ -144,11 +269,14 @@ a > span {
     grid-template-columns: 1fr 2fr;
     grid-gap: 0%;
     margin-right: 20%;
+
   }
+
 @media only screen and (max-width: 768px) {
   .content-split-grid-70 {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
+
   }}
 
 
@@ -185,31 +313,37 @@ a > span {
 }
 
 #menu-image-1 {
-  background: url('../images/bg.jpg');
+  background: url('../images/menu-image-1.jpg');
+  background-size: cover;
 
   background-position: center;
 }
 
 #menu-image-2 {
-  background: url('../images/bg.jpg');
-
+  background: url('../images/menu-image-2.jpg');
+background-size: cover;
   background-position: center;
 }
 
 
 #menu-image-3 {
-  background: url('../images/bg.jpg');
-
+  background: url('../images/menu-image-3.jpg');
+background-size: cover;
   background-position: center;
 }
 
 
 #menu-image-4 {
-  background: url('../images/bg.jpg');
-
+  background: url('../images/menu-image-4.jpg');
+background-size: cover;
   background-position: center;
 }
+#menu-image-5 {
 
+  background: url('../images/menu-image-5.jpg');
+  background-position: center;
+background-size: cover;
+}
 #frontPage {
   background-image: url('../images/frontpage.jpg');
   background-position: -140px;
