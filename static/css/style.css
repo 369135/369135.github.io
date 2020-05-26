@@ -28,6 +28,7 @@ body {
 
 .textContainer {
   margin: 0px 10% 0px 10%;
+
 }
 
 .fullImage {
@@ -247,10 +248,7 @@ a>span {
   margin-left: 30%;
 }
 
-.greyLink {
-  padding-top: 15px;
 
-}
 
 .greyLink:hover {
   color: black;
@@ -316,7 +314,7 @@ a>span {
     display: none;
   }
 
-  h1 {
+  .topBar > h1 {
     text-align: left;
 
   }
@@ -351,7 +349,7 @@ a>span {
 
   #menu {
     float: right;
-    position: absolute;
+    position: fixed;
     background-color: #ededed;
     width:0px;
     top: 0;
@@ -363,8 +361,8 @@ a>span {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 15px;
-    grid-template-rows: 20px 20px 20px 20px 20px 20px;
+
+    grid-template-rows: auto auto auto auto auto;
   }
 }
 
