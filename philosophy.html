@@ -1,12 +1,11 @@
 <!Doctype HTML>
 
 <head>
-  	<link rel="stylesheet" href="style.css" />
     <title>Classico Landscapes</title>
   	<meta charset="utf-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1" />
   	<link rel="stylesheet" href="static/css/style.css" />
-
+    <script src="static/js/script.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
@@ -16,20 +15,37 @@
 </head>
 
 <body>
-  <section class="topBar-alternative">
-    <div></div>
-      <div><h1>CLASSICO</h1></div>
-      <div></div>
-    <a href="index.html"><div><h5 class="greyLink">Home</h5></div></a>
-    <div></div>
-    <a href="gallery.html"><div><h5 class="greyLink">Project Gallery</h5></div></a>
-    <div></div>
-    <a href="philosophy.html"><div><h5 class="greyLink">Philisophy</h5></div></a>
-    <div></div>
-    <a href="services.html"><div><h5 class="greyLink">Services</h5></div></a>
-    <div></div>
-    <a href="contact.html"><div><h5 class="greyLink">Contact</h5></div></a>
-</section>
+
+      <header class="topBar-alternative">
+        <div></div>
+          <div><h1>CLASSICO</h1></div>
+          <div></div>
+
+          <span id="menu-button" onclick="openNav()"><h3>Menu &#9776;</h3></span>
+        <a href="index.html"><div><h5 class="greyLink">Home</h5></div></a>
+        <div></div>
+        <a href="gallery.html"><div><h5 class="greyLink">Project Gallery</h5></div></a>
+        <div></div>
+        <a href="philosophy.html"><div><h5 class="greyLink">Philisophy</h5></div></a>
+        <div></div>
+        <a href="services.html"><div><h5 class="greyLink">Services</h5></div></a>
+        <div></div>
+        <a href="contact.html"><div><h5 class="greyLink">About & Contact</h5></div></a>
+      </header>
+
+      <header id="menu"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><h1 class="text-align-left textContainer">&times;</h1></a>
+
+
+        <a href="index.html"><div><h3 class="greyLink">Home</h3></div></a>
+
+        <a href="gallery.html"><div><h3 class="greyLink">Project Gallery</h3></div></a>
+
+        <a href="philosophy.html"><div><h3 class="greyLink">Philisophy</h3></div></a>
+
+        <a href="services.html"><div><h3 class="greyLink">Services</h3></div></a>
+
+        <a href="contact.html"><div><h3 class="greyLink">About/Contact</h3></div></a>
+      </header>
 
 
 <span class="divider"></span><span class="divider"></span><span class="divider"></span>
