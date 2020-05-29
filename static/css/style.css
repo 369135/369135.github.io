@@ -446,7 +446,7 @@ a>span {
 }
 
 #frontPage {
-  background-color: grey;
+
   border: 1px solid red;
   background-image: url('../images/frontpage-blur.jpg');
   background-position: center;
