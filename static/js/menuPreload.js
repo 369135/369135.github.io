@@ -18,7 +18,7 @@ if (document.images) {
 			}
 window.onload = function loadStuff() {
 	document.getElementById("menu-image-1").style.backgroundImage = "url('static/images/menu-image-1.jpg')";
-	document.getElementById("menu-image-1").style.filter = "blur(0px)";
+	document.getElementById("menu-image-1").style.filter = "blur(0px)"
 
 	document.getElementById("menu-image-2").style.backgroundImage = "url('static/images/menu-image-2.jpg')";
 	document.getElementById("menu-image-2").style.filter = "blur(0px)";
