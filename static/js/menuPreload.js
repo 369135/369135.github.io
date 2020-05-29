@@ -17,8 +17,12 @@ if (document.images) {
 
 			}
 window.onload = function loadStuff() {
-  document.getElementById("menu-image-1").style.backgroundImage = "url('static/images/menu-image-1.jpg')";
 	document.getElementById("menu-image-1").style.filter = "blur(0px)";
+	$("#menu-image-1").stop().animate({opacity: 0},500,function(){
+    $(this).css({'background-image': "url('static/images/menu-image-1.jpg')"})
+               .animate({opacity: 1},{duration:500});
+ });
+
 	document.getElementById("menu-image-2").style.backgroundImage = "url('static/images/menu-image-2.jpg')";
 	document.getElementById("menu-image-2").style.filter = "blur(0px)";
 	document.getElementById("menu-image-3").style.backgroundImage = "url('static/images/menu-image-3.jpg')";
