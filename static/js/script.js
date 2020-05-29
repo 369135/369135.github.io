@@ -7,6 +7,7 @@ if (document.images) {
 			}
 window.onload = function loadStuff() {
   document.getElementById("frontPage").style.backgroundImage = "url('static/images/frontpage.jpg')";
+  document.getElementById("frontPage").style.border = "2px solid blue";
   console.log("loaded");
 }
 function openNav() {
