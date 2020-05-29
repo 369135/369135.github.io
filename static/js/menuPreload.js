@@ -9,7 +9,7 @@ if (document.images) {
 
 
 				img1.src = "static/images/menu-image-1.jpg";
-		
+
         img2.src = "static/images/menu-image-2.jpg";
         img3.src = "static/images/menu-image-3.jpg";
         img4.src = "static/images/menu-image-4.jpg";
