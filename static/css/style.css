@@ -446,8 +446,8 @@ a>span {
 }
 
 #frontPage {
+
   background-image: url('../images/frontpage-blur.jpg');
-  background-image: url('../images/frontpage.jpg');
   background-position: center;
 }
 
