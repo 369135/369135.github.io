@@ -416,31 +416,31 @@ a>span {
 }
 
 #menu-image-1 {
-  background: url('../images/frontpage-blur.jpg');
+  background: url('../images/menu-image-1-blur.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #menu-image-2 {
-  background: url('../images/menu-image-2.jpg');
+  background: url('../images/menu-image-2-blur.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #menu-image-3 {
-  background: url('../images/menu-image-3.jpg');
+  background: url('../images/menu-image-3-blur.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #menu-image-4 {
-  background: url('../images/menu-image-4.jpg');
+  background: url('../images/menu-image-4-blur.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #menu-image-5 {
-  background: url('../images/menu-image-5.jpg');
+  background: url('../images/menu-image-5-blur.jpg');
   background-position: center;
   background-size: cover;
 }
