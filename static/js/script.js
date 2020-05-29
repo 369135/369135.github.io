@@ -1,7 +1,7 @@
 
 
 
-function myFunction() {
+window.onload = function myFunction() {
   document.getElementById("frontPage").style.backgroundImage="url('static/images/frontpage.jpg')";
   console.log("css loaded");
 }
