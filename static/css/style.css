@@ -413,6 +413,7 @@ a>span {
 .menu-image {
   width: 100%;
   height: 90%;
+
 }
 
 #menu-image-1 {
@@ -420,6 +421,9 @@ a>span {
   filter: blur(10px);
   background-size: cover;
   background-position: center;
+  -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
+
 }
 
 #menu-image-2 {
