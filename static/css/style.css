@@ -413,6 +413,7 @@ a>span {
 .menu-image {
   width: 100%;
   height: 90%;
+  transition: filter 1s;
 
 }
 
@@ -458,6 +459,7 @@ a>span {
 
   background-image: url('../images/frontpage-blur.jpg');
   background-position: center;
+  transition: filter 1s;
 }
 
 
