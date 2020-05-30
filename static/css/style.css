@@ -462,7 +462,7 @@ a>span {
 
 #frontPage {
 
-
+  filter: blur(20px);
   background-image: url('../images/frontpage-blur.jpg');
   background-position: center;
   -webkit-transition: all 0.3s ease-in-out;
