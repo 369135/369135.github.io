@@ -30,3 +30,17 @@ window.onload = function loadStuff() {
 	document.getElementById("menu-image-5").style.filter = "blur(0px)";
   console.log("loaded");
 }
+
+
+function plantGallery() {
+	var i = 1;
+	while(i < 30) {
+
+		var l = i.toString();
+		console.log(l);
+		document.getElementById("plant" + l).style.backgroundImage = "url('static/images/plant"+ l +".jpg')";
+		document.getElementById("plant" + l).style.height = "70vh";
+		i++;
+}
+
+}
