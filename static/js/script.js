@@ -35,3 +35,19 @@ function openNav() {
 function closeNav() {
   document.getElementById("menu").style.transform = "translateX(100%)";
 }
+
+
+(function() {
+/**
+* Video element
+* @type {HTMLElement}
+*/
+var video = document.getElementById("video");
+
+/**
+* Check if video can play, and play it
+*/
+video.addEventListener( "canplay", function() {
+video.play();
+});
+})();
