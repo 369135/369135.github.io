@@ -1,22 +1,37 @@
-if (document.images) {
-				img1 = new Image();
 
 
-				img1.src = "static/images/frontpage.jpg";
+  window.onscroll = function() {myFunction()};
+function myFunction() {
 
-			}
-window.onload = function loadStuff() {
-  document.getElementById("frontPage").style.backgroundImage = "url('static/images/frontpage.jpg')";
-	document.getElementById("frontPage").style.filter = "blur(0px)";
-  console.log("loaded");
-}
+  var element = document.getElementById("mainHeader");
+  var class_name = element.className;
+
+
+  var h = (window.innerHeight)*.95;
+
+console.log(document.body.scrollTop);
+  if (((document.body.scrollTop + document.documentElement.scrollTop) > h) && class_name != "slideUp") {
+
+    element.classList.add("slideUp");
+
+
+    element.style.transform = "translateY(0)";
+
+
+    console.log("done");
+
+  }
+
+  else if ((document.body.scrollTop + document.documentElement.scrollTop) < h && class_name == "slideUp"){
+  document.getElementById("mainHeader").classList.remove("slideUp");
+  console.log("remove");
+  element.style.transform = "translateY(-30px)";
+}}
+
 function openNav() {
-  document.getElementById("menu").style.width = "250px";
-
-  console.log("open");
-
+  document.getElementById("menu").style.transform = "translateX(0)";
 }
 
 function closeNav() {
-  document.getElementById("menu").style.width="0";
+  document.getElementById("menu").style.transform = "translateX(100%)";
 }
