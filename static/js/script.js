@@ -25,7 +25,7 @@ console.log(document.body.scrollTop);
   else if ((document.body.scrollTop + document.documentElement.scrollTop) < h && class_name == "slideUp"){
   document.getElementById("mainHeader").classList.remove("slideUp");
   console.log("remove");
-  element.style.transform = "translateY(-30px)";
+  element.style.transform = "translateY(-15vh)";
 }}
 
 function openNav() {
