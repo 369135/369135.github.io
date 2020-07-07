@@ -2,25 +2,22 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   font-weight: 300;
   border: 0px solid red;
-
+  color: black;
 }
+
 body {
   background-color: #f2f2f2;
 }
 
+h1 {}
 
-h1 {
-
-}
-
-h2 {
-
-}
+h2 {}
 
 h3 {
   font-size: 23px;
@@ -34,7 +31,9 @@ h5 {
   font-size: 25px;
 }
 
-
+h6 {
+  font-size: 18px;
+}
 
 p {
   font-size: 17px;
@@ -45,10 +44,8 @@ a {
   text-decoration: none;
 }
 
-
-a > span {
+a>span {
   font-family: FontAwesome;
-
 }
 
 .link-special {
@@ -63,7 +60,6 @@ a > span {
   margin-right: 20px;
   line-height: 40px;
   border-bottom: .1px grey solid;
-
 }
 
 .menu-text:hover {
@@ -83,7 +79,6 @@ a > span {
   color: white;
 }
 
-
 .container {
   padding: 0 5% 0 5%;
 }
@@ -96,18 +91,13 @@ a > span {
   text-align: center;
 }
 
-
 .align-right {
   text-align: right;
 }
 
-
 .divider {
   height: 50px;
 }
-
-
-
 
 header {
   z-index: 2;
@@ -116,18 +106,15 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-
   display: grid;
   grid-template-columns: 1fr 12fr 6fr 1fr;
   grid-template-rows: 100%;
-
 }
 
 #mainHeader {
   position: fixed;
   will-change: transform;
   z-index: 3;
-
   transform: translateY(-15vh);
   background-color: black;
   color: white;
@@ -146,10 +133,8 @@ header {
 header>h3 {
   font-family: 'Lato', sans-serif;
   color: white;
-
   height: 5vh;
   margin-top: 2vh;
-
 }
 
 video {
@@ -158,7 +143,6 @@ video {
   width: 100%;
   height: 100vh;
 }
-
 
 #menu {
   display: grid;
@@ -192,28 +176,22 @@ footer {
   background-color: black;
 }
 
-
-
 .linkBox {
-  height:40px;
+  height: 40px;
   width: 100%;
   border: .6px solid black;
 }
 
-.linkBox > h5 {
+.linkBox>h5 {
   height: 13px;
-
   margin: 1.5px;
   text-align: center;
 }
 
-
-
 .grid-homeoptions {
-  display:grid;
-  width:50%;
+  display: grid;
+  width: 50%;
   margin-left: 25%;
-
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -226,20 +204,79 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
-.style1, .grid-homeoptions {
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-}
-
+  .style1, .grid-homeoptions {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
 }
 
 .style2 {
-  background-image: url("static/image/bg.jpg");
-  height: 20vh;
+  background-color: black;
+  background-image: url("../images/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
+
+.style2>h3 {
+  color: white;
+  text-align: center;
+  width: 20%;
+}
+
+.style3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-column-gap: 3%;
+  padding: 5% 1% 0px 1%;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .style2{
+    height: 35vh;
+  }
+  .style3 {
+    grid-template-columns: 1fr;
+
+
+  }
+}
+
+.style3>a>div {
+  margin: 12% 0 12% 0;
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 10fr 1fr;
+
+
+}
+
+.style3>a>div>div {
+  width: 96%;
+  height: 98%;
+  margin: 2% 2% 0% 2%;
+  color: grey;
+  overflow: hidden;
+}
+
+.style3>a>div>div>img {
+  height: 100%;
+}
+
+.style3>a>div>h6 {
+  text-align: center;
+  padding-top: 8px;
+}
+
 
 .full-height-image {
   width: 90%;
