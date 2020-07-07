@@ -7,5 +7,8 @@ app = Flask(__name__)
 def home(name=None):
     return render_template('index.html', name=name)
 
+@app.route("name=None"):
+    return render_template('projects.html', name=name)
+
 if __name__ == "__main__":
     app.run(debug=True)
